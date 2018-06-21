@@ -1,6 +1,6 @@
 {
   "name": "@alastair/contextmenu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A dead simple React context menu.",
   "main": "index.js",
   "repository": "https://github.com/AlastairTaft/contextmenu.git",
