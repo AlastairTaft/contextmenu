@@ -24,9 +24,9 @@ Design your context menu however you like and attach it by creating a context me
 import createContextMenuRef from '@alastair/contextmenu'
 
 const MyWidget = props => {
-  var ContextMenu = ({ onClose }) => <div>
+  const ContextMenu = ({ onClose }) => <div>
     This is my context menu.
-    <button onClick={onClose}>Logout</button>
+    <button onClick={onClose}>Close</button>
   </div>
 
   return <div ref={createContextMenuRef(ContextMenu)}>
