@@ -13,7 +13,7 @@ A low level React context menu implementation with a simple api.
 ## Installation
 
 ```
-yarn add @alastar/contextmenu
+yarn add @alastair/contextmenu
 ```
 
 ## Usage
