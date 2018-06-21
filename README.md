@@ -20,7 +20,7 @@ yarn add @alastar/contextmenu
 
 Design your context menu however you like and attach it by creating a context menu ref to a target element.
 
-```
+```jsx
 import createContextMenuRef from '@alastair/contextmenu'
 
 const MyWidget = props => {
@@ -39,17 +39,16 @@ const MyWidget = props => {
 
 The api exports the following function
 
-- createContextMenuRef
-
 ### `createContextMenuRef(ContextMenu, opt_ref)`
-Create a context menu ref.
+Create a context menu ref, this sets the target element that when clicked will
+open the context menu.
 
-#### PropTypes
+#### Arguments
 
-| Property     | Type               | Required? | Description                                                      |
-|--------------|--------------------|-----------|------------------------------------------------------------------|
-| ContextMenu  | Component/Function | ✓         | The context menu as a component or function.                     |
-| opt_ref      | Object/Function    |           | The regular ref argument, can use React.createRef or a function. |
+| Argument     | Type               | Required? | Description                                                                            |
+|--------------|--------------------|-----------|----------------------------------------------------------------------------------------|
+| ContextMenu  | Component/Function | ✓         | The context menu. This will be shown when the target ref is clicked.                   |
+| opt_ref      | Object/Function    |           | The regular ref argument, this is useful if you need to use the standard ref behaviour |
 
 ## License
 
