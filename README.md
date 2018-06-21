@@ -45,10 +45,10 @@ open the context menu.
 
 #### Arguments
 
-| Argument     | Type               | Required? | Description                                                                            |
-|--------------|--------------------|-----------|----------------------------------------------------------------------------------------|
-| ContextMenu  | Component/Function | ✓         | The context menu. This will be shown when the target ref is clicked.                   |
-| opt_ref      | Object/Function    |           | The regular ref argument, this is useful if you need to use the standard ref behaviour |
+| Argument     | Type               | Required? | Description                                                                                                                                                 |
+|--------------|--------------------|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ContextMenu  | Component/Function | ✓         | The context menu. This will be shown when the target ref is clicked. It will have one injected prop `onClose` which you can fire to close the context menu. |
+| opt_ref      | Object/Function    |           | The regular ref argument, this is useful if you need to use the standard ref behaviour                                                                      |
 
 ## License
 
