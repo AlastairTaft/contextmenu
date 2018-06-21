@@ -1,7 +1,8 @@
 
 # A dead simple React context menu
 
-A low level React context menu implementation with a simple api.
+A low level React context menu implementation with a simple api that has no
+dependencies (although expects React).
 
 ## Table of contents
 
