@@ -37,7 +37,7 @@ function createContextMenuRef(ContextMenu, opt_ref) {
     // We don't mount ahead of time so that the user can still use lifecycle
     // methods
     ReactDOM.render(React.createElement(ContextMenu, {
-      onClose
+      onClose: onClose
     }), container)
     e.stopPropagation()
     document.body.addEventListener('mousedown', onHideContextMenu)
@@ -92,8 +92,8 @@ function createContextMenuRef(ContextMenu, opt_ref) {
     else if (typeof opt_ref == 'object')
       opt_ref.current = el
     else
-      throw new Error(`Only a ref of type object or function is supported with
-        'createContextMenuRef()'.`.replace(/\s+/g, ' '))
+      throw new Error("Only a ref of type object or function is supported " +
+        "with 'createContextMenuRef()'.")
 
   }
 
