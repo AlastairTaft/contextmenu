@@ -1,3 +1,5 @@
+# ⚠️ Not actively maintained
+This repo is not maintained.
 
 # A dead simple React context menu
 
